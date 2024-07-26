@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.habit-form {
+    margin-bottom: 20px;
+}
+
+#habit-name, #habit-color, #add-habit-btn {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#add-habit-btn {
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+#add-habit-btn:hover {
+    background: #0056b3;
+}
+
+.habit {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.habit-name {
+    flex: 1;
+}
+
+.habit-days {
+    display: flex;
+}
+
+.day {
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.day.completed {
+    background: #007BFF;
+    color: white;
+}
